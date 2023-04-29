@@ -17,7 +17,7 @@
 
 
  # This is a music player website which is created by only html and css.
- https:/Deepakkisku/Music-player-website-using-HTML-and-CSS
+https://deepakkisku.github.io/Music-player-website-using-HTML-and-CSS-/#player
  
 
 # You can see the screenshoots of the music player website interface  

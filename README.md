@@ -1,10 +1,7 @@
-   <!--=========================================
+
        MUSIC PLAYER WEBSITE USING HTML CSS 
-    ========================================= -->
 
-
-
-    There are three main fies in this Project :-
+    There are five main fies in this Project :-
 
 1. Index.html - It consists of the html code for the home screen of the music player.
 
@@ -16,14 +13,11 @@
 
 5. artist.css - it consists of the extrnal css stylesheets, in this stylesheet consits of all css for the artist , playlist and songs section which is applied commonly for all the devices.
 
-     <!========================================================
-      All the relevant images are contained in the Assest folder.
-      ======================================================== -->
+      * All the relevant images are contained in the Assest folder.
+      * Proper responsiveness have been added to both the pages
 
 
-    # Proper responsiveness have been added to both the pages
-
-
-  This is a music player website which is created by only html and css.
+ #  This is a music player website which is created by only html and css.
+ 
 
 # You can see the screenshoots of the music player website interface  

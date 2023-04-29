@@ -22,3 +22,10 @@
  
 
 # You can see the screenshoots of the music player website interface  
+![Web capture_30-4-2023_04932_127 0 0 1](https://user-images.githubusercontent.com/98824538/235321521-86e7d335-5910-4105-ac66-15ed16e10a20.jpeg)
+
+
+![Web capture_30-4-2023_04742_127 0 0 1](https://user-images.githubusercontent.com/98824538/235321527-7b2962a7-6d5b-49da-98ba-bb3174f74efb.jpeg)
+
+
+

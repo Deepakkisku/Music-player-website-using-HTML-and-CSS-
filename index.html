@@ -1,0 +1,1074 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Music Player</title>
+</head>
+
+<body>
+
+    <!--=========================================
+                    NAVBAR
+    ========================================= -->
+    <nav id="main-nav">
+        <div class="big-screen-nav">
+            <a href="#">
+                <div class="logo-img ">
+                    <img src="assets/img/logo.png" alt="">
+                    <h6>Ninja <br> Studio</h6>
+                </div>
+            </a>
+            <div class="nav ">
+                <div class="left-nav ">
+                    <div class="nav-list">
+                        <ul>
+                            <li> <a href=""> Favourites </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="right-nav  ">
+                    <div class="search ">
+                        <i class="fas fa-search"></i>
+                        <form action="" method="get">
+                            <input type="text" name="search" placeholder="search">
+                        </form>
+                        <a href=""> <i class="fas fa-microphone"></i> </a>
+                    </div>
+                    <div class="notification ">
+                        <a href=""><i class="fas fa-bell"></i> </a>
+                        <span> <i class="fas fa-circle"></i></span>
+                    </div>
+                    <div class="login ">
+                        <a href="">
+                            <img src="assets/img/1.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <input type="checkbox" name="toggle" id="toggle">
+        <label for="toggle" class="bar"><i class="fas fa-bars"></i></label>
+
+        <!--  phones navbar  -->
+        <div class="phone-navbar">
+            <div class="nav-list">
+                <ul>
+                    <li> <a href=""> Favourites </a></li>
+                </ul>
+            </div>
+            <div class="search ">
+                <i class="fas fa-search"></i>
+                <form action="" method="get">
+                    <input type="text" name="search" placeholder="search">
+                </form>
+                <a href=""><i class="fas fa-microphone"></i> </a>
+            </div>
+            <div id="notify">
+                <div class="notification ">
+                    <a href=""><i class="fas fa-bell"></i>
+                    <span> <i class="fas fa-circle"></i></span></a>
+                </div>
+                <div class="login ">
+                    <a href="">
+                        <img src="assets/img/login.jpg" alt="">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+     <!-----------------------------------------
+                    NAVBAR-END
+    ------------------------------------------->
+
+
+
+    <!--========================================= CONTAINER DIV ============================ -->
+                    
+    
+
+    <div class="container">
+        <!--=========================================
+                    MAIN SECTION
+        ==========================================-->
+        <main>
+
+                <!--=========================================
+                                CAROUSEL
+                ==========================================-->
+
+                <div class="carousel ">
+                    <div class="carousel-viewport">
+                        <div id="item1" class="item ">
+                            <img src="assets/img/poster1.jpg" alt="">
+
+                        </div>
+                        <div id="item2" class="item ">
+                            <img src="assets/img/poster2.jpg" alt="">
+
+                        </div>
+                        <div id="item3" class="item ">
+                            <img src="assets/img/poster3.jpg" alt="">
+
+                        </div>
+                        <div id="item4" class="item ">
+                            <img src="assets/img/poster4.jpg" alt="">
+
+                        </div>
+                        <div id="item5" class="item ">
+                            <img src="assets/img/poster5.jpg" alt="">
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-----------------------------------------
+                            **CAROUSEL-END**
+                ------------------------------------------->
+
+                <!--=========================================
+                                LATEST RELEASE
+                ==========================================-->
+
+                <div class="latest-release ">
+                    <h3>Latest Release</h3>
+                    <div class="latest ">
+                        <div class="latest-img">
+                            <a href="#player">
+                                <div class="play">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                                <img src="assets/img/latest1.jpeg" alt="">
+                            </a>
+                        </div>
+                        <div class="latest-desc">
+                            <p>Champagne</p>
+                            <p>Oct 15,2021</p>
+                        </div>
+                        <div class="latest-icon">
+                            <a href="" class="latest-dots"> <i class="fas fa-ellipsis-h"></i>
+                                <div class="latest-menu">
+                                    <ul>
+                                        <li><a href=""> <i class="fas fa-play"></i>&nbsp; Play now </a> </li><br>
+                                        <hr><br>
+                                        <li><a href=""> <i class="fas fa-plus"></i>&nbsp; Add To Queue </a> </li><br>
+                                        <hr><br>
+                                        <li><a href=""> <i class="fas fa-indent"></i>&nbsp; Add To Favourites </a> </li>
+                                        <br>
+                                        <hr><br>
+                                        <li><a href=""> <i class="fas fa-info-circle"></i>&nbsp; Get Info </a></li>
+                                    </ul>
+                                </div>
+                            </a><br>
+                            <span>4:45</span>
+                        </div>
+                    </div>
+                    <div class="latest ">
+                        <div class="latest-img">
+                            <a href="#player">
+                                <div class="play">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                                <img src="assets/img/latest2.jpeg" alt="">
+                            </a>
+                        </div>
+                        <div class="latest-desc">
+                            <p>Raataan Lambiyan</p>
+                            <p>Oct 15,2021</p>
+                        </div>
+                        <div class="latest-icon">
+                            <a href="" class="latest-dots"> <i class="fas fa-ellipsis-h"></i>
+                                <div class="latest-menu">
+                                    <ul>
+                                        <li><a href=""> <i class="fas fa-play"></i>&nbsp; Play now </a> </li><br>
+                                        <hr><br>
+                                        <li><a href=""> <i class="fas fa-plus"></i>&nbsp; Add To Queue </a> </li><br>
+                                        <hr><br>
+                                        <li><a href=""> <i class="fas fa-indent"></i>&nbsp; Add To Favourites </a> </li>
+                                        <br>
+                                        <hr><br>
+                                        <li><a href=""> <i class="fas fa-info-circle"></i>&nbsp; Get Info </a></li>
+                                    </ul>
+                                </div>
+                            </a><br>
+                            <span>4:45</span>
+                        </div>
+                    </div>
+                    <div class="latest ">
+                        <div class="latest-img">
+                            <a href="#player">
+                                <div class="play">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                                <img src="assets/img/latest3.jpeg" alt="">
+                            </a>
+                        </div>
+                        <div class="latest-desc">
+                            <p>Stay</p>
+                            <p>Oct 15,2021</p>
+                        </div>
+                        <div class="latest-icon">
+                            <a href="" class="latest-dots"> <i class="fas fa-ellipsis-h"></i>
+                                <div class="latest-menu">
+                                    <ul>
+                                        <li><a href=""> <i class="fas fa-play"></i>&nbsp; Play now </a> </li><br>
+                                        <hr><br>
+                                        <li><a href=""> <i class="fas fa-plus"></i>&nbsp; Add To Queue </a> </li><br>
+                                        <hr><br>
+                                        <li><a href=""> <i class="fas fa-indent"></i>&nbsp; Add To Favourites </a> </li>
+                                        <br>
+                                        <hr><br>
+                                        <li><a href=""> <i class="fas fa-info-circle"></i>&nbsp; Get Info </a></li>
+                                    </ul>
+                                </div>
+                            </a><br>
+                            <span>4:45</span>
+                        </div>
+                    </div>
+                    <div class="latest ">
+                        <div class="latest-img">
+                            <a href="#player">
+                                <div class="play">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                                <img src="assets/img/latest4.jpeg" alt="">
+                            </a>
+                        </div>
+                        <div class="latest-desc ">
+                            <p>Jalebi Baby</p>
+                            <p>Oct 15,2021</p>
+                        </div>
+                        <div class="latest-icon">
+                            <a href="" class="latest-dots"> <i class="fas fa-ellipsis-h"></i></a>
+                            <div class="latest-menu">
+                                <ul>
+                                    <li><a href=""> <i class="fas fa-play"></i>&nbsp; Play now </a> </li><br>
+                                    <hr><br>
+                                    <li><a href=""> <i class="fas fa-plus"></i>&nbsp; Add To Queue </a> </li><br>
+                                    <hr><br>
+                                    <li><a href=""> <i class="fas fa-indent"></i>&nbsp; Add To Favourites </a> </li><br>
+                                    <hr><br>
+                                    <li><a href=""> <i class="fas fa-info-circle"></i>&nbsp; Get Info </a></li>
+                                </ul>
+                            </div>
+                            <br>
+                            <span>4:45</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-----------------------------------------
+                            **LATEST RELEASE-END**
+                ------------------------------------------->
+
+                <!--=========================================
+                                POPULAR ARTIST
+                ==========================================-->
+
+                <div class="popular-artist ">
+                    <div class="popular-artist-heading">
+                        <h3> Popular Artists </h3>
+                    </div>
+                    <div class="artists">
+                        <div class="artist">
+                            <a href="artist.html">
+                                <div class="play">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </a>
+                            <img src="assets//img/popular-artist1.jpg" alt="">
+                            <h5>Ed Sheeran</h5>
+                        </div>
+                        <div class="artist">
+                            <a href="artist.html">
+                                <div class="play">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </a>
+                            <img src="assets//img/popular-artist2.jpg" alt="">
+                            <h5>Cold Play</h5>
+                        </div>
+                        <div class="artist">
+                            <a href="artist.html">
+                                <div class="play">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </a>
+                            <img src="assets//img/rahman.jpg" alt="">
+                            <h5>A R Rahman</h5>
+                        </div>
+                        <div class="artist">
+                            <a href="artist.html">
+                                <div class="play">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </a>
+                            <img src="assets//img/arjit.jpg" alt="">
+                            <h5>Arjit singh</h5>
+                        </div>
+                        <div class="artist">
+                            <a href="artist.html">
+                                <div class="play">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </a>
+                            <img src="assets//img/zayn.jpg" alt="">
+                            <h5>Zayn</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <!-----------------------------------------
+                            **POPULAR ARTIST-END**
+                ------------------------------------------->
+
+                <!--=========================================
+                                MUSIC STATIONS
+                ==========================================-->
+                <div class="music-station ">
+                    <div class="music-station-img">
+                        <img src="assets/img/music-station.jpg" alt="">
+                    </div>
+                    <div class="music-station-types">
+                        <div class="music-type love">
+                            <a href="artist.html">
+                                <div class="play">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </a>
+                            <img src="assets/img/love.jpg" alt="">
+                        </div>
+                        <div class="music-type retro">
+                            <a href="artist.html">
+                                <div class="play">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </a>
+                            <img src="assets/img/retro.jpg" alt="">
+                        </div>
+                        <div class="music-type chill">
+                            <a href="artist.html">
+                                <div class="play">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </a>
+                            <img src="assets/img/chill.jpg" alt="">
+                        </div>
+                        <div class="music-type workout">
+                            <a href="artist.html">
+                                <div class="play">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </a>
+                            <img src="assets/img/workout.jpg" alt="">
+                        </div>
+                        <div class="music-type rock">
+                            <a href="artist.html">
+                                <div class="play">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </a>
+                            <img src="assets/img/rock.jpg" alt="">
+                        </div>
+                        <div class="music-type pop">
+                            <a href="artist.html">
+                                <div class="play">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </a>
+                            <img src="assets/img/pop.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <!-----------------------------------------
+                            **MUSIC STATIONS-END**
+                ------------------------------------------->
+
+                <!--=========================================
+                                CATEGORY CARDS
+                ==========================================-->
+                
+                <div class="cards">
+                    <div class="card">
+                        <a href="artist.html">
+                            <img src="assets/img/party.jpg" alt="">
+                            <div class="card-name">
+                                <h3>Party</h3>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="artist.html">
+                            <img src="assets/img/electronic.jpg" alt="">
+                            <div class="card-name">
+                                <h3>Electronic</h3>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="artist.html">
+                            <img src="assets/img/roadtrip.jpg" alt="">
+                            <div class="card-name">
+                                <h3>Roadtrip</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-----------------------------------------
+                            **CATEGORY CARDS-END**
+                ------------------------------------------->
+
+                <!--=========================================
+                                ENGLISH SONGS
+                ==========================================-->
+            
+                <div class="english-songs ">
+                    <div class="english-songs-heading">
+                        <h3>Latest English</h3>
+                    </div>
+                    <div class="english-songs-box ">
+                        <div class="eng-song">
+                            <div class="eng-song-img">
+                                <a href="#player">
+                                    <div class="play">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                    <img src="assets/img/english-song1.webp" alt="">
+                                </a>
+                            </div>
+                            <div class="eng-song-desc">
+                                <h5>Summer Of Love</h5>
+                                <h6>Aug 11, 2019</h6>
+                            </div>
+                        </div>
+                        <div class="eng-song">
+                            <a href="">
+                                <div class="eng-song-img">
+                                    <a href="#player">
+                                        <div class="play">
+                                            <i class="fas fa-play"></i>
+                                        </div>
+                                        <img src="assets/img/english-song2.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="eng-song-desc">
+                                    <h5>999</h5>
+                                    <h6>Aug 11, 2019</h6>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="eng-song">
+                            <a href="">
+                                <div class="eng-song-img">
+                                    <a href="#player">
+                                        <div class="play">
+                                            <i class="fas fa-play"></i>
+                                        </div>
+                                        <img src="assets/img/english-song3.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="eng-song-desc">
+                                    <h5>peaches</h5>
+                                    <h6>Aug 11, 2019</h6>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="eng-song">
+                            <a href="">
+                                <div class="eng-song-img">
+                                    <a href="#player">
+                                        <div class="play">
+                                            <i class="fas fa-play"></i>
+                                        </div>
+                                        <img src="assets/img/english-song4.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="eng-song-desc">
+                                    <h5>STAY</h5>
+                                    <h6>Aug 11, 2019</h6>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="eng-song">
+                            <a href="">
+                                <div class="eng-song-img">
+                                    <a href="#player">
+                                        <div class="play">
+                                            <i class="fas fa-play"></i>
+                                        </div>
+                                        <img src="assets/img/english-song5.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="eng-song-desc">
+                                    <h5>Ploua-XZEEZ Remix</h5>
+                                    <h6>Aug 11, 2019</h6>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="eng-song">
+                            <a href="">
+                                <div class="eng-song-img">
+                                    <a href="#player">
+                                        <div class="play">
+                                            <i class="fas fa-play"></i>
+                                        </div>
+                                        <img src="assets/img/english-song6.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="eng-song-desc">
+                                    <h5>selfish love</h5>
+                                    <h6>Aug 11, 2019</h6>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-----------------------------------------
+                            **ENGLISH SONGS-END**
+                ------------------------------------------->
+
+                <!--=========================================
+                                HINDI SONGS
+                ==========================================-->
+
+                <div class="hindi-songs ">
+                    <div class="hindi-songs-heading">
+                        <h3>Latest Hindi</h3>
+                    </div>
+                    <div class="hindi-songs-box ">
+                        <div class="hindi-song">
+                            <a href="">
+                                <div class="hindi-song-img">
+                                    <a href="#player">
+                                        <div class="play">
+                                            <i class="fas fa-play"></i>
+                                        </div>
+                                        <img src="assets/img/hindi-song1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="hindi-song-desc">
+                                    <h5>Barish</h5>
+                                    <h6>Aug 11, 2019</h6>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="hindi-song">
+                            <a href="">
+                                <div class="hindi-song-img">
+                                    <a href="#player">
+                                        <div class="play">
+                                            <i class="fas fa-play"></i>
+                                        </div>
+                                        <img src="assets/img/hindi-song2.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="hindi-song-desc">
+                                    <h5>Ranjha</h5>
+                                    <h6>Aug 11, 2019</h6>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="hindi-song">
+                            <a href="">
+                                <div class="hindi-song-img">
+                                    <a href="#player">
+                                        <div class="play">
+                                            <i class="fas fa-play"></i>
+                                        </div>
+                                        <img src="assets/img/hindi-song3.jpeg" alt="">
+                                    </a>
+                                </div>
+                                <div class="hindi-song-desc">
+                                    <h5>Dil Galti kar baitha hai</h5>
+                                    <h6>Aug 11, 2019</h6>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="hindi-song">
+                            <a href="">
+                                <div class="hindi-song-img">
+                                    <a href="#player">
+                                        <div class="play">
+                                            <i class="fas fa-play"></i>
+                                        </div>
+                                        <img src="assets/img/hindi-song4.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="hindi-song-desc">
+                                    <h5>Dilbar</h5>
+                                    <h6>Aug 11, 2019</h6>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="hindi-song">
+                            <a href="">
+                                <div class="hindi-song-img">
+                                    <a href="#player">
+                                        <div class="play">
+                                            <i class="fas fa-play"></i>
+                                        </div>
+                                        <img src="assets/img/hindi-song5.webp" alt="">
+                                    </a>
+                                </div>
+                                <div class="hindi-song-desc">
+                                    <h5>Tughe Kitna Chahane lage</h5>
+                                    <h6>Aug 11, 2019</h6>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="hindi-song">
+                            <a href="">
+                                <div class="hindi-song-img">
+                                    <a href="#player">
+                                        <div class="play">
+                                            <i class="fas fa-play"></i>
+                                        </div>
+                                        <img src="assets/img/hindi-song6.webp" alt="">
+                                    </a>
+                                </div>
+                                <div class="hindi-song-desc">
+                                    <h5>Tum hi aana</h5>
+                                    <h6>Aug 11, 2019</h6>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-----------------------------------------
+                            **HINDI SONGS-END**
+                ------------------------------------------->
+
+                
+            </main>
+            
+            <!-----------------------------------------
+                **MAIN SECTION-END**
+            ------------------------------------------->
+
+        <!--=========================================
+                         ASIDE SECTION       
+        ==========================================-->
+
+        <aside class="aside ">
+            <div class="queue-heading  ">
+                <h1>Queue</h1>
+                <div class="queue-list ">
+                    Queue &nbsp; &nbsp; <i class="fas fa-angle-down"></i>
+                    <div class="select-queue b">
+                        <ul>
+                            <p><i class="fas fa-list"></i> &nbsp; Playlists</p>
+                            <hr>
+                            <li><a href=""><i class="fas fa-heart"></i>&nbsp; Favourite Songs </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="my-queue-list  ">
+                <div class="queue-item">
+                    <div class="queue-contain">
+                        <div class="queue-no">
+                            01
+                        </div>
+                        <div class="queue-item-img">
+                            <a href="#player">
+                                <div class="play">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </a>
+                            <img src="assets/img/hindi-song6.webp" alt="">
+                        </div>
+                        <div class="queue-item-desc">
+                            <h5>tum hi aana</h5>
+                            <p>jubin</p>
+                        </div>
+                    </div>
+                    <div class="queue-item-icon">
+                        <a href=""><i class="far fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="queue-item">
+                    <div class="queue-contain">
+                        <div class="queue-no">
+                            02
+                        </div>
+                        <div class="queue-item-img">
+                            <a href="#player">
+                                <div class="play">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </a>
+                            <img src="assets/img/english-song1.webp" alt="">
+                        </div>
+                        <div class="queue-item-desc">
+                            <h5>Summer Of Love</h5>
+                            <p>Else</p>
+                        </div>
+                    </div>
+                    <div class="queue-item-icon">
+                        <a href=""><i class="far fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="queue-item">
+                    <div class="queue-contain">
+                        <div class="queue-no">
+                            <span><i class="fas fa-music"></i></span>
+                        </div>
+                        <div class="queue-item-img">
+                            <a href="#player">
+                                <div class="play">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </a>
+                            <img src="assets/img/latest2.jpeg" alt="">
+                        </div>
+                        <div class="queue-item-desc">
+                            <h5>Raataan Lambhiyan</h5>
+                            <p>jubin</p>
+                        </div>
+                    </div>
+                    <div class="queue-item-icon">
+                        <a href=""><i class="far fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="queue-item">
+                    <div class="queue-contain">
+                        <div class="queue-no">
+                            04
+                        </div>
+                        <div class="queue-item-img">
+                            <a href="#player">
+                                <div class="play">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </a>
+                            <img src="assets/img/hindi-song4.jpg" alt="">
+                        </div>
+                        <div class="queue-item-desc">
+                            <h5>Dilbar</h5>
+                            <p>Neha Kakkar</p>
+                        </div>
+                    </div>
+                    <div class="queue-item-icon">
+                        <a href=""><i class="far fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="queue-item">
+                    <div class="queue-contain">
+                        <div class="queue-no">
+                            05
+                        </div>
+                        <div class="queue-item-img">
+                            <a href="#player">
+                                <div class="play">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </a>
+                            <img src="assets/img/english-song6.jpg" alt="">
+                        </div>
+                        <div class="queue-item-desc">
+                            <h5>Selfish love</h5>
+                            <p>Selena Gomez</p>
+                        </div>
+                    </div>
+                    <div class="queue-item-icon">
+                        <a href=""><i class="far fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="queue-item">
+                    <div class="queue-contain">
+                        <div class="queue-no">
+                            06
+                        </div>
+                        <div class="queue-item-img">
+                            <a href="#player">
+                                <div class="play">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </a>
+                            <img src="assets/img/latest4.jpeg" alt="">
+                        </div>
+                        <div class="queue-item-desc">
+                            <h5>Jalebi baby</h5>
+                            <p>Else</p>
+                        </div>
+                    </div>
+                    <div class="queue-item-icon">
+                        <a href=""><i class="far fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="queue-item">
+                    <div class="queue-contain">
+                        <div class="queue-no">
+                            07
+                        </div>
+                        <div class="queue-item-img">
+                            <a href="#player">
+                                <div class="play">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </a>
+                            <img src="assets/img/latest1.jpeg" alt="">
+                        </div>
+                        <div class="queue-item-desc">
+                            <h5>champagne</h5>
+                            <p>diljit dosanjh</p>
+                        </div>
+                    </div>
+                    <div class="queue-item-icon">
+                        <a href=""><i class="far fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="queue-item">
+                    <div class="queue-contain">
+                        <div class="queue-no">
+                            08
+                        </div>
+                        <div class="queue-item-img">
+                            <a href="#player">
+                                <div class="play">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </a>
+                            <img src="assets/img/hindi-song1.jpg" alt="">
+                        </div>
+                        <div class="queue-item-desc">
+                            <h5>Baarish</h5>
+                            <p>Satebin Ben,Payal Dev</p>
+                        </div>
+                    </div>
+                    <div class="queue-item-icon">
+                        <a href=""><i class="far fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="queue-item">
+                    <div class="queue-contain">
+                        <div class="queue-no">
+                            09
+                        </div>
+                        <div class="queue-item-img">
+                            <a href="#player">
+                                <div class="play">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </a>
+                            <img src="assets/img/english-song2.jpg" alt="">
+                        </div>
+                        <div class="queue-item-desc">
+                            <h5>999</h5>
+                            <p>Selena Gomez</p>
+                        </div>
+                    </div>
+                    <div class="queue-item-icon">
+                        <a href=""><i class="far fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="queue-item">
+                    <div class="queue-contain">
+                        <div class="queue-no">
+                            10
+                        </div>
+                        <div class="queue-item-img">
+                            <a href="#player">
+                                <div class="play">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </a>
+                            <img src="assets/img/english-song4.jpg" alt="">
+                        </div>
+                        <div class="queue-item-desc">
+                            <h5>STAY</h5>
+                            <p>Else</p>
+                        </div>
+                    </div>
+                    <div class="queue-item-icon">
+                        <a href=""><i class="far fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="queue-item">
+                    <div class="queue-contain">
+                        <div class="queue-no">
+                            11
+                        </div>
+                        <div class="queue-item-img">
+                            <a href="#player">
+                                <div class="play">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </a>
+                            <img src="assets/img/hindi-song2.jpg" alt="">
+                        </div>
+                        <div class="queue-item-desc">
+                            <h5>Ranjha</h5>
+                            <p>Else</p>
+                        </div>
+                    </div>
+                    <div class="queue-item-icon">
+                        <a href=""><i class="far fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="queue-item">
+                    <div class="queue-contain">
+                        <div class="queue-no">
+                            12
+                        </div>
+                        <div class="queue-item-img">
+                            <a href="#player">
+                                <div class="play">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </a>
+                            <img src="assets/img/hindi-song3.jpeg" alt="">
+                        </div>
+                        <div class="queue-item-desc">
+                            <h5>Dil Galti Kar Baitha Hai</h5>
+                            <p>jubin nautiyal</p>
+                        </div>
+                    </div>
+                    <div class="queue-item-icon">
+                        <a href=""><i class="far fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="queue-item">
+                    <div class="queue-contain">
+                        <div class="queue-no">
+                            13
+                        </div>
+                        <div class="queue-item-img">
+                            <a href="#player">
+                                <div class="play">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </a>
+                            <img src="assets/img/english-song3.jpg" alt="">
+                        </div>
+                        <div class="queue-item-desc">
+                            <h5>peaches</h5>
+                            <p>justin beiber</p>
+                        </div>
+                    </div>
+                    <div class="queue-item-icon">
+                        <a href=""><i class="far fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="queue-item">
+                    <div class="queue-contain">
+                        <div class="queue-no">
+                            14
+                        </div>
+                        <div class="queue-item-img">
+                            <a href="#player">
+                                <div class="play">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </a>
+                            <img src="assets/img/hindi-song5.webp" alt="">
+                        </div>
+                        <div class="queue-item-desc">
+                            <h5>Tughe Kitna Chahne Lage</h5>
+                            <p>arjit singh</p>
+                        </div>
+                    </div>
+                    <div class="queue-item-icon">
+                        <a href=""><i class="far fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="queue-item">
+                    <div class="queue-contain">
+                        <div class="queue-no">
+                            15
+                        </div>
+                        <div class="queue-item-img">
+                            <a href="#player">
+                                <div class="play">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </a>
+                            <img src="assets/img/english-song5.jpg" alt="">
+                        </div>
+                        <div class="queue-item-desc">
+                            <h5>Ploua-XZEEZ Remix</h5>
+                            <p>Else</p>
+                        </div>
+                    </div>
+                    <div class="queue-item-icon">
+                        <a href=""><i class="far fa-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-----------------------------------------
+                **ASIDE SECTION-END**
+        ------------------------------------------->
+
+    </div>
+
+    <!--------------------------------------------- CONTAINER DIV END ------------------------------ -->
+    
+    <!--=========================================
+                    MUSIC PLAYER
+    ==========================================-->
+
+    <div class="player " id="player">
+        <div class="player-left-side">
+            <div class="player-img">
+                <img src="assets/img/latest2.jpeg" alt="">
+            </div>
+            <div class="player-name">
+                <marquee behavior="scroll" direction="left">Raataan Lambhiyan</marquee>
+                <div class="player-singer">
+                    jubin Nautiyal
+                </div>
+            </div>
+            <div class="player-left-icons">
+                <a href=""><i class="far fa-heart"></i></a>
+                <a href=""><i class="fas fa-ban"></i></a>
+            </div>
+        </div>
+        <div class="player-middle-side">
+            <div class="player-middle-icons">
+                <a href=""><i class="fas fa-random"></i></a>
+                <a href=""><i class="fas fa-step-backward"></i></a>
+                <a href="" class="pause"><i class="fas fa-pause"></i></a>
+                <a href=""><i class="fas fa-step-forward"></i></a>
+                <a href=""><i class="fas fa-sync"></i></a>
+            </div>
+            <div class="song-progress">
+                <div class="song-time">
+                    1:43
+                </div>
+                <input type="range" name="duration" id="duration" min="0" max="100" step="1" value="40">
+                <div class="song-duration">
+                    3:25
+                </div>
+            </div>
+        </div>
+        <div class="player-right-side">
+            <a href=""> <i class="fas fa-outdent"></i></a>
+            <a href=""> <img src="assets/img/computer-speaker.png" width="20px" height="20px" alt=""></a>
+            <a href=""><i class="fas fa-volume-up"></i></a>
+            <input type="range" name="volume" id="volume" min="0" max="100" value="70" step="1">
+            <a href=""> <i class="fas fa-expand"></i></a>
+        </div>
+    </div>
+
+    <!-----------------------------------------
+                **MUSIC PLAYER-END**
+    ------------------------------------------->
+
+</body>
+
+</html>

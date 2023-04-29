@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="artist.css">
+    <title>Artist</title>
+</head>
+
+<body>
+
+    <!--=========================================
+                    NAVBAR
+    ========================================= -->
+    <nav id="main-nav">
+        <div class="big-screen-nav">
+            <a href="index.html">
+                <div class="logo-img ">
+                    <img src="assets/img/logo.png" alt="">
+                    <h6>Ninja <br> Studio</h6>
+                </div>
+            </a>
+            <div class="nav ">
+                <div class="left-nav ">
+                    <div class="nav-list">
+                        <ul>
+                            <li> <a href=""> Favourites </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="right-nav  ">
+                    <div class="search ">
+                        <i class="fas fa-search"></i>
+                        <form action="" method="get">
+                            <input type="text" name="search" placeholder="search">
+                        </form>
+                        <a href=""> <i class="fas fa-microphone"></i> </a>
+                    </div>
+                    <div class="notification ">
+                        <a href=""><i class="fas fa-bell"></i> </a>
+                        <span> <i class="fas fa-circle"></i></span>
+                    </div>
+                    <div class="login ">
+                        <a href="">
+                            <img src="assets/img/1.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <input type="checkbox" name="toggle" id="toggle">
+        <label for="toggle" class="bar"><i class="fas fa-bars"></i></label>
+
+        <!--  phones navbar  -->
+
+        <div class="phone-navbar">
+            <div class="nav-list">
+                <ul>
+                    <li> <a href=""> Favourites </a></li>
+                </ul>
+            </div>
+            <div class="search ">
+                <i class="fas fa-search"></i>
+                <form action="" method="get">
+                    <input type="text" name="search" placeholder="search">
+                </form>
+                <a href=""><i class="fas fa-microphone"></i> </a>
+            </div>
+            <div id="notify">
+                <div class="notification ">
+                    <a href=""><i class="fas fa-bell"></i>
+                    <span> <i class="fas fa-circle"></i></span></a>
+                </div>
+                <div class="login ">
+                    <a href="">
+                        <img src="assets/img/login.jpg" alt="">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    <!-----------------------------------------
+                    NAVBAR-END
+    ------------------------------------------->
+
+
+    <!--============================================ CONTAINER DIV =========================================-->
+
+    <div class="container">
+
+        <!--=========================================
+                    MAIN SECTION
+    ========================================= -->
+
+        <main>
+            <div class="artist-profile">
+                <div class="artist-profile-img">
+                    <img src="assets/img/artist-profile.jpg" alt="">
+                </div>
+                <div class="artist-profile-desc">
+                    <div class="artist-profile-header">
+                        <div class="artist-profile-name">
+                            <h2>ColdPlay</h2>
+                            <span>British Band</span>
+                        </div>
+                        <div class="artist-followers">
+                            851 Followers
+                        </div>
+                    </div>
+                    <div class="profile-desc">
+                        The Weeknd is a talented and popular Ethiopian Hipster R&B artist who hails from the beautiful
+                        country of Canada--Ontario in particular. Born on February 16, 1990 under the name of Abel
+                        Tesfaye, he felt the pains of a less than ideal child's life while growing up. His father was
+                        not around and his mother worked many hours to care for his needs; therefore, his grandmother
+                        took the lead in his life.
+                    </div>
+                    <div class="artist-profile-footer">
+                        <div class="play-button">
+                            <button>Play All</button>
+                            <div class="tracks-albums">247 Tracks| 138 Albums</div>
+                        </div>
+                        <div class="follow-button">
+                            <a href="">Follow</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="artist-songs">
+                <div class="artist-song">
+                    <div class="about-song">
+                        <div class="artist-song-no">
+                            01
+                        </div>
+                        <div class="artist-song-img">
+                            <a href="#player">
+                                <div class="play">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </a>
+                            <img src="assets/img/english-song3.jpg" alt="">
+                        </div>
+                        <div class="artist-song-name">
+                            <h6>Mirage</h6>
+                            <span>Else</span>
+                        </div>
+                    </div>
+                    <div class="artist-song-icons">
+                        <a href=""><i class="far fa-heart"></i></a>
+                        <a href=""><i class="fas fa-plus"></i></a>
+                    </div>
+                </div>
+                <div class="artist-song">
+                    <div class="about-song">
+                        <div class="artist-song-no">
+                            <span><i class="fas fa-music"></i></span>
+                        </div>
+                        <div class="artist-song-img">
+                            <a href="#player">
+                                <div class="play">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </a>
+                            <img src="assets/img/english-song3.jpg" alt="">
+                        </div>
+                        <div class="artist-song-name">
+                            <h6>Mirage</h6>
+                            <span>Else</span>
+                        </div>
+                    </div>
+                    <div class="artist-song-icons">
+                        <a href=""><i class="far fa-heart"></i></a>
+                        <a href=""><i class="fas fa-plus"></i></a>
+                    </div>
+                </div>
+                <div class="artist-song">
+                    <div class="about-song">
+                        <div class="artist-song-no">
+                            03
+                        </div>
+                        <div class="artist-song-img">
+                            <a href="#player">
+                                <div class="play">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </a>
+                            <img src="assets/img/english-song3.jpg" alt="">
+                        </div>
+                        <div class="artist-song-name">
+                            <h6>Mirage</h6>
+                            <span>Else</span>
+                        </div>
+                    </div>
+                    <div class="artist-song-icons">
+                        <a href=""><i class="far fa-heart"></i></a>
+                        <a href=""><i class="fas fa-plus"></i></a>
+                    </div>
+                </div>
+                <div class="artist-song">
+                    <div class="about-song">
+                        <div class="artist-song-no">
+                            04
+                        </div>
+                        <div class="artist-song-img">
+                            <a href="#player">
+                                <div class="play">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </a>
+                            <img src="assets/img/english-song3.jpg" alt="">
+                        </div>
+                        <div class="artist-song-name">
+                            <h6>Mirage</h6>
+                            <span>Else</span>
+                        </div>
+                    </div>
+                    <div class="artist-song-icons">
+                        <a href=""><i class="far fa-heart"></i></a>
+                        <a href=""><i class="fas fa-plus"></i></a>
+                    </div>
+                </div>
+                <div class="artist-song">
+                    <div class="about-song">
+                        <div class="artist-song-no">
+                            05
+                        </div>
+                        <div class="artist-song-img">
+                            <a href="#player">
+                                <div class="play">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </a>
+                            <img src="assets/img/english-song3.jpg" alt="">
+                        </div>
+                        <div class="artist-song-name">
+                            <h6>Mirage</h6>
+                            <span>Else</span>
+                        </div>
+                    </div>
+                    <div class="artist-song-icons">
+                        <a href=""><i class="far fa-heart"></i></a>
+                        <a href=""><i class="fas fa-plus"></i></a>
+                    </div>
+                </div>
+                <div class="artist-song">
+                    <div class="about-song">
+                        <div class="artist-song-no">
+                            06
+                        </div>
+                        <div class="artist-song-img">
+                            <a href="#player">
+                                <div class="play">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </a>
+                            <img src="assets/img/english-song3.jpg" alt="">
+                        </div>
+                        <div class="artist-song-name">
+                            <h6>Mirage</h6>
+                            <span>Else</span>
+                        </div>
+                    </div>
+                    <div class="artist-song-icons">
+                        <a href=""><i class="far fa-heart"></i></a>
+                        <a href=""><i class="fas fa-plus"></i></a>
+                    </div>
+                </div>
+                <div class="artist-song">
+                    <div class="about-song">
+                        <div class="artist-song-no">
+                            07
+                        </div>
+                        <div class="artist-song-img">
+                            <a href="#player">
+                                <div class="play">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </a>
+                            <img src="assets/img/english-song3.jpg" alt="">
+                        </div>
+                        <div class="artist-song-name">
+                            <h6>Mirage</h6>
+                            <span>Else</span>
+                        </div>
+                    </div>
+                    <div class="artist-song-icons">
+                        <a href=""><i class="far fa-heart"></i></a>
+                        <a href=""><i class="fas fa-plus"></i></a>
+                    </div>
+                </div>
+                <div class="artist-song">
+                    <div class="about-song">
+                        <div class="artist-song-no">
+                            08
+                        </div>
+                        <div class="artist-song-img">
+                            <a href="#player">
+                                <div class="play">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </a>
+                            <img src="assets/img/english-song3.jpg" alt="">
+                        </div>
+                        <div class="artist-song-name">
+                            <h6>Mirage</h6>
+                            <span>Else</span>
+                        </div>
+                    </div>
+                    <div class="artist-song-icons">
+                        <a href=""><i class="far fa-heart"></i></a>
+                        <a href=""><i class="fas fa-plus"></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+
+        <!-----------------------------------------
+                    MAIN SECTION-END
+    ------------------------------------------->
+
+        <!--=========================================
+                    ASIDE SECTION
+    ========================================= -->
+
+        <aside>
+            <div class="similar-artists">
+                <div class="similar-artists-heading">
+                    <h3>Similar Artists</h3>
+                    <a href="">View All</a>
+                </div>
+                <div class="all-artists">
+                    <div class="similar-artist">
+                        <div class="similar-artist-img">
+                            <a href="#player">
+                                <div class="play">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </a>
+                            <img src="assets/img/rahman.jpg" alt="">
+                        </div>
+                        <div class="similar-artist-name">
+                            <h6>Imagine Dragon</h6>
+                            <span>Pop Band</span>
+                        </div>
+                        <div class="similar-artist-icons">
+                            <a href="" class=""> <i class="fas fa-ellipsis-h"></i></a><br>
+                            <span>4:40</span>
+                        </div>
+                    </div>
+                    <div class="similar-artist">
+                        <div class="similar-artist-img">
+                            <a href="#player">
+                                <div class="play">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </a>
+                            <img src="assets/img/rahman.jpg" alt="">
+                        </div>
+                        <div class="similar-artist-name">
+                            <h6>Imagine Dragon</h6>
+                            <span>Pop Band</span>
+                        </div>
+                        <div class="similar-artist-icons">
+                            <a href="" class=""> <i class="fas fa-ellipsis-h"></i> </a><br>
+                            <span>4:40</span>
+                        </div>
+                    </div>
+                    <div class="similar-artist">
+                        <div class="similar-artist-img">
+                            <a href="#player">
+                                <div class="play">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </a>
+                            <img src="assets/img/rahman.jpg" alt="">
+                        </div>
+                        <div class="similar-artist-name">
+                            <h6>Imagine Dragon</h6>
+                            <span>Pop Band</span>
+                        </div>
+                        <div class="similar-artist-icons">
+                            <a href="" class=""> <i class="fas fa-ellipsis-h"></i></a><br>
+                            <span>4:40</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recent-plays">
+                <div class="similar-artists-heading">
+                    <h3>Recent Songs</h3>
+                    <a href="">View All</a>
+                </div>
+                <div class="recent-songs">
+                    <div class="recent-song">
+                        <div class="about-song">
+                            <div class="recent-song-no">
+                                01
+                            </div>
+                            <div class="recent-song-img">
+                                <a href="#player">
+                                    <div class="play">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </a>
+                                <img src="assets/img/english-song3.jpg" alt="">
+                            </div>
+                            <div class="recent-song-name">
+                                <h6>Mirage</h6>
+                                <span>Else</span>
+                            </div>
+                        </div>
+                        <div class="recent-song-icons">
+                            <a href=""><i class="far fa-heart"></i></a>
+                        </div>
+                    </div>
+                    <div class="recent-song">
+                        <div class="about-song">
+                            <div class="recent-song-no">
+                                02
+                            </div>
+                            <div class="recent-song-img">
+                                <a href="#player">
+                                    <div class="play">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </a>
+                                <img src="assets/img/english-song3.jpg" alt="">
+                            </div>
+                            <div class="recent-song-name">
+                                <h6>Mirage</h6>
+                                <span>Else</span>
+                            </div>
+                        </div>
+                        <div class="recent-song-icons">
+                            <a href=""><i class="far fa-heart"></i></a>
+                        </div>
+                    </div>
+                    <div class="recent-song">
+                        <div class="about-song">
+                            <div class="recent-song-no">
+                                03
+                            </div>
+                            <div class="recent-song-img">
+                                <a href="#player">
+                                    <div class="play">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </a>
+                                <img src="assets/img/english-song3.jpg" alt="">
+                            </div>
+                            <div class="recent-song-name">
+                                <h6>Mirage</h6>
+                                <span>Else</span>
+                            </div>
+                        </div>
+                        <div class="recent-song-icons">
+                            <a href=""><i class="far fa-heart"></i></a>
+                        </div>
+                    </div>
+                    <div class="recent-song">
+                        <div class="about-song">
+                            <div class="recent-song-no">
+                                04
+                            </div>
+                            <div class="recent-song-img">
+                                <a href="#player">
+                                    <div class="play">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </a>
+                                <img src="assets/img/english-song3.jpg" alt="">
+                            </div>
+                            <div class="recent-song-name">
+                                <h6>Mirage</h6>
+                                <span>Else</span>
+                            </div>
+                        </div>
+                        <div class="recent-song-icons">
+                            <a href=""><i class="far fa-heart"></i></a>
+                        </div>
+                    </div>
+                    <div class="recent-song">
+                        <div class="about-song">
+                            <div class="recent-song-no">
+                                05
+                            </div>
+                            <div class="recent-song-img">
+                                <a href="#player">
+                                    <div class="play">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </a>
+                                <img src="assets/img/english-song3.jpg" alt="">
+                            </div>
+                            <div class="recent-song-name">
+                                <h6>Mirage</h6>
+                                <span>Else</span>
+                            </div>
+                        </div>
+                        <div class="recent-song-icons">
+                            <a href=""><i class="far fa-heart"></i></a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </aside>
+
+        <!-----------------------------------------
+                    ASIDE SECTION-END
+    ------------------------------------------->
+
+    </div>
+
+
+    <!--=========================================
+                    MUSIC PLAYER
+    ==========================================-->
+
+    <div class="player " id="player">
+        <div class="player-left-side">
+            <div class="player-img">
+                <img src="assets/img/latest2.jpeg" alt="">
+            </div>
+            <div class="player-name">
+                <marquee behavior="scroll" direction="left">Raataan Lambhiyan</marquee>
+                <div class="player-singer">
+                    jubin Nautiyal
+                </div>
+            </div>
+            <div class="player-left-icons">
+                <a href=""><i class="far fa-heart"></i></a>
+                <a href=""><i class="fas fa-ban"></i></a>
+            </div>
+        </div>
+        <div class="player-middle-side">
+            <div class="player-middle-icons">
+                <a href=""><i class="fas fa-random"></i></a>
+                <a href=""><i class="fas fa-step-backward"></i></a>
+                <a href="" class="pause"><i class="fas fa-pause"></i></a>
+                <a href=""><i class="fas fa-step-forward"></i></a>
+                <a href=""><i class="fas fa-sync"></i></a>
+            </div>
+            <div class="song-progress">
+                <div class="song-time">
+                    1:43
+                </div>
+                <input type="range" name="duration" id="duration" min="0" max="100" step="1" value="40">
+                <div class="song-duration">
+                    3:25
+                </div>
+            </div>
+        </div>
+        <div class="player-right-side">
+            <a href=""> <i class="fas fa-outdent"></i></a>
+            <a href=""> <img src="assets/img/computer-speaker.png" width="20px" height="20px" alt=""></a>
+            <a href=""><i class="fas fa-volume-up"></i></a>
+            <input type="range" name="volume" id="volume" min="0" max="100" value="70" step="1">
+            <a href=""> <i class="fas fa-expand"></i></a>
+        </div>
+    </div>
+
+    <!-----------------------------------------
+                **MUSIC PLAYER-END**
+    ------------------------------------------->
+
+</body>
+
+</html>

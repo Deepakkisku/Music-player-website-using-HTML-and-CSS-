@@ -1,5 +1,7 @@
 
-        MUSIC PLAYER WEBSITE USING HTML CSS  There are five main fies in this Project :-
+      # MUSIC PLAYER WEBSITE USING HTML CSS  
+    
+    There are five main fies in this Project :-
 
 1. Index.html - It consists of the html code for the home screen of the music player.
 
@@ -15,7 +17,7 @@
       * Proper responsiveness have been added to both the pages
 
 
- #  This is a music player website which is created by only html and css.
+ # This is a music player website which is created by only html and css.
  https:/Deepakkisku/Music-player-website-using-HTML-and-CSS
  
 
